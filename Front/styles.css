@@ -1,17 +1,66 @@
-img{
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
+nav{
+    display: flex;
+    align-items:end;
+    padding-top: 5px;
+    margin-bottom: -15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-body {
+ul{
+    flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    list-style-type: none;
+}
+
+.headlinks{
+    padding: 10px;
+}
+
+.profimg{
+    background: white;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.washulogo{
+    margin: 5px;
+    max-height: 40px;
+    width: auto;
+    margin-right: -20px;
+}
+body {
     height: 700px;
-    background-color: black;
+    margin: 15px;
+    background-color: black; 
+}
+h1{
+    padding: 30px;
+    color: white;
+}
+.ctrlogo{
+    max-height: 200px;
+    width: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    display: block;
+}
+
+.innerbody{
+    text-align: center;
+}
+
+.join{
+    background-color: rgb(28, 130, 255);
+    height: 40px;
+    width: 100px;
 }
 
 *{
+    text-decoration:none;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
