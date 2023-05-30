@@ -4,6 +4,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+button{
+    cursor: pointer;
+}
+
 nav{
     display: flex;
     align-items:end;
@@ -44,6 +48,7 @@ body {
 }
 h1{
     padding: 30px;
+    margin-top: 50px;
     color: white;
 }
 .ctrlogo{
@@ -60,6 +65,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .join{
@@ -70,12 +76,36 @@ h1{
     border: none;
 }
 
+.happyphotos{
+    margin-top: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+img.photos{
+    height: 200px;
+    width: auto;
+    border-radius: 25px;
+}
+
+#centerpic.photos{
+    height: 300px;
+}
+
 footer{
     text-align: center;
     margin: 30px;
+    margin-top: 100px;
     padding: 30px;
     font-size: 10px;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+}
+
+.instagram{
+    height: 15px;
+    width: 15px;
 }
